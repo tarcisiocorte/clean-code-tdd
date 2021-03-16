@@ -5,27 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests",
-    "check": "npm-check -s -u"
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.13",
-    "@types/node": "^14.10.1",
-    "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "eslint": "^7.9.0",
-    "eslint-config-standard-with-typescript": "^19.0.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.6",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^9.2.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "git-commit-msg-linter": "^2.6.0",
-    "husky": "^4.3.0",
-    "jest": "^26.4.2",
-    "lint-staged": "^10.3.0",
-    "ts-jest": "^26.3.0",
-    "typescript": "^4.0.2"
+    "git-commit-msg-linter": "^2.3.11",
+    "husky": "^4.0.6",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
   }
 }
