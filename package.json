@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "^0.15.0-rc.12",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.5",
     "standard": "^16.0.4"
