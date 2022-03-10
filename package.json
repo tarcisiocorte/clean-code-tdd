@@ -1,15 +1,27 @@
 {
-  "name": "clean-javascript-api",
+  "name": "clean-node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "standard": "ˆ14.3.1"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.5",
+    "standard": "^16.0.4"
   }
 }
